@@ -1,0 +1,13 @@
+Tipos de listas
+
+list: secuencia de valores ordenados y modificables
+
+tuple: sec valores ordenados e inmutables. Permite duplicados
+
+set: sec valores desordenados, sin indice e inmutable,
+pero se pueden agregar nuevos items. No permite duplicados
+
+dictionary: sec valores desordenados, modificables y con indice.
+No permite duplicados.
+
+

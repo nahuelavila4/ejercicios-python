@@ -10,14 +10,14 @@ def sumar():
 
 
 estado_izquierda = input("Vienen autos de la mano izquierda?")
-#estado_derecha = input("Vienen autos de la mano derecha?")
+estado_derecha = input("Vienen autos de la mano derecha?")
 
-def cruzar_calle(izq):
+def cruzar_calle(izq, der):
     resultado = ""
-    if(izq == "No"):
+    if(izq and der == "No"):
         resultado = "Puede cruzar la calle"
     else:
         resultado = "No puede cruzar"
     return resultado
 
-print(cruzar_calle(estado_izquierda))
+print(cruzar_calle(estado_izquierda, estado_derecha))
